@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "Enter a letter to see whether it is an vowel or constant\n";
+	char c;
+	cin >> c;
+	if (!isalpha(c))
+	{
+		cout << "you have entered incorrect value";
+	}
+	else if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+	{
+		cout << "you entered a vowel";
+	}
+	else
+	{
+		cout << "you have entered a constant";
+	}
+
+
+}
